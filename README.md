@@ -86,3 +86,27 @@ npm start
 Course Link : https://www.linkedin.com/learning/hands-on-introduction-react
 
 
+### This is a jsx demo app ###
+
+# Points to be noted
+
+1)JSX stands for javascrpt syntax extension. JSX = Html in javascript
+2)When you want to return html in function if it is single html statement then bracets not required
+eg: return <h1> exaample </h1>
+3)when you want to return multiple html in return statement brackets are required
+return(
+    <h1> exMPLE1 </h1>
+    <h2> example2 </h2>
+)
+4) no need of semicolon for jsx
+5)when want to give class attrbute to html you will write it as className = "container" (diff from normal html class = "")
+eg: <p className = "container">example </p>
+5) In jsx Css style attribute is written as style = {{color:blue , width: 150px}} intead of separating into semicolon by normal html
+6)events in jsx will be camelCase eg: onClick = {#----js code-----}
+eg: onClick = { () => alert('Hi')}
+7)in Jsx self closing tags is not optional otherwise it will throw error 
+eg: img - <img src = "" > will return error
+jsx - <img src = "" />
+8)In js template literals is given in jsx as
+{variable -name}
+in angular that is similar to string interpolation {{variable-name}}
