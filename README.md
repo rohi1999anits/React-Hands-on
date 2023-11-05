@@ -86,9 +86,17 @@ npm start
 Course Link : https://www.linkedin.com/learning/hands-on-introduction-react
 
 
-### This is a jsx demo app ###
+### Components with Hooks ###
 
 # Points to be noted
+
+-> React Hooks
+Hook into React
+Access to state
+Access to lifecycle
+
+1. Hooks are special functions that will allow your code to hook into react React's objects. They give you access to the things like state that is how you store data 
+2. UseState UseEffects etc.. are common hooks
 
 1)JSX stands for javascrpt syntax extension. JSX = Html in javascript
 2)When you want to return html in function if it is single html statement then bracets not required
